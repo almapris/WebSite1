@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-color:#8EACCD;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado img{
+    height: 70px;
+    width: auto;
+}
+
+.menu{
+    line-height: 65px;
+    margin-right: 20px;
+
+}
+
+.menu a{
+    margin-left: 8px ;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+
+}
+
+.menu .btnc {
+    background-color: white;
+    padding: 12px;
+    color: cadetblue;
+    border-radius: 10px;
+}
+
+.carousel-inner img{
+    height: 90vh;
+}
+
+.tarjetita{
+    width: 1200px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+    border-radius: 20px;
+    background-color: #8EACCD;
+    text-align: center;
+
+}
+
+.personajes{
+    padding:  20px;
+}
+
+.personajes h1{
+    text-align: center;
+    color: #FF4E88;
+
+
+}
+
+.personajes p{
+    line-height: 35px;
+    font-size: 18px;
+    color: #7A1CAC;
+    text-align: center;
+
+}
+
+/* boton */
+
+
+#btn{
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 10px;
+    height: 35px;
+    background: #7A1CAC;
+    color: #EBD3F8;
+    border: 2px dotted white;
+    text-align: center;
+}
+
+section{
+    width: 1250px;
+    height: 550px;
+    margin: 20px auto;
+    display: flex;
+
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease-in-out;
+
+}
+section img:hover{
+    cursor: pointer;
+    width: 350px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
+
+footer{
+    background: cadetblue;
+    height: 300px;
+    color: #7A1CAC;
+    ;
+    
+}
+
+footer h1{
+    text-align: center;
+}
+
+.pie1{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pie img{
+    width: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.maps{
+
+    margin-right:210px ;
+    height: 250px;
+    width: 400px;
+}
+
+.alma{
+    margin-right: 10px;
+}
